@@ -1,0 +1,164 @@
+:root{
+    --first-webpage-gradient-color: #9400d3;
+    --second-webpage-gradient-color: #0000ff;
+    --third-webpage-gradient-color: #87ceeb;
+    --headbar-background: #000000;
+    --link-color: #ffffff;
+    --link-hover-color: #800080;
+    --first-sheet-gradient-color: #ffa500;
+    --second-sheet-gradient-color: #fafad2;
+    --third-sheet-gradient-color: #ffff00;
+    --sheet-border-color: #dda0dd;
+}
+#jonas_store_main_webpage, #jonas_store_detail_webpage{
+    background: linear-gradient(to bottom right, var(--first-webpage-gradient-color),
+    var(--second-webpage-gradient-color), var(--third-webpage-gradient-color));
+}
+#jonas_store_main_headbar, #jonas_store_detail_headbar{
+    background: var(--headbar-background);
+    padding: 3px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.jonas_store_logo{
+    color: var(--third-sheet-gradient-color);
+    font-family: "Bungee", fantasy;
+    font-size: 40px;
+    text-decoration: underline;
+    text-shadow: 2px 4px 2px var(--link-hover-color);
+}
+a:link{
+    color: var(--link-color);
+}
+a:visited{
+    color: var(--link-color);
+}
+#copyright_link, #storage_link{
+    color: var(--third-sheet-gradient-color);
+}
+#copyright_link:hover, #storage_link:hover{
+    color: var(--link-color);
+}
+nav ul{
+    list-style-type: none;
+    padding: 5px, 0;
+}
+nav li{
+    display: inline;
+}
+nav li a{
+    text-decoration: none;
+    padding: 5px 5px;
+}
+nav li a:hover{
+    color: var(--link-hover-color);
+    background-color: var(--third-sheet-gradient-color);
+    padding: 10px 10px;
+}
+#jonas_store_main_sheet, #jonas_store_detail_sheet{
+    background: linear-gradient(to right, var(--first-sheet-gradient-color), 
+    var(--second-sheet-gradient-color), var(--third-sheet-gradient-color));
+    border: 10px groove var(--sheet-border-color);
+}
+.jonas_store_title h1 , .jonas_store_detail_title h1{
+    color: var(--second-webpage-gradient-color);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+.jonas_store_title p, .jonas_store_detail_title p{
+    color: var(--link-hover-color);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+.jonas_store_description p, .jonas_store_summary p{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+#container{
+    display: flex;
+    gap: 20px;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@keyframes lowerRecord{
+    from{top:120px;}
+    to{top:160px;}
+}
+.records{
+    padding: 5px;
+    background-color: var(--third-sheet-gradient-color);
+    border: 5px groove var(--sheet-border-color);
+    box-shadow: 3px 3px 4px var(--link-hover-color);
+    position: relative;
+}
+.records:hover{
+    animation-name: lowerRecord;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    transition: all 200ms ease-in-out;
+    transform: scale(1.5,1.5);
+}
+.records p{
+    color: var(--link-hover-color);
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 20px; 
+}
+table, th, td{
+    border: 5px groove var(--sheet-border-color);
+    font-family: 'Courier New', Courier, monospace;
+}
+table caption{
+    font-size: 30px;
+}
+table tr{
+    font-size: 15px;
+}
+#jonas_store_main_footbar, #jonas_store_detail_footbar{
+    background: var(--link-hover-color);
+    color: var(--third-sheet-gradient-color);
+    padding: 3px 0;
+    display: flex;
+    flex-direction: column;
+}
+.jonas_store_detail_content{
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.jonas_store_summary{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    flex-grow: 1;
+    flex-basis: 60%;
+}
+.jonas_store_summary> div{
+    background-color: var(--third-sheet-gradient-color);
+    color: var(--link-hover-color);
+    border: 5px groove var(--sheet-border-color);
+    width: 500px;
+    padding: 4px;
+    float: right;
+    clear: both;
+}
+.features{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    background-color: var(--third-sheet-gradient-color);
+    color: var(--link-hover-color);
+    border: 5px groove var(--sheet-border-color);
+}
+.features > h2{
+    font-size: 35px;
+}
+#jonas_store_interior_photo{
+    position: relative;
+}
+.stars{
+    position: absolute;
+    left: 20px;
+    top: 500px;
+    width: 160px;
+}
