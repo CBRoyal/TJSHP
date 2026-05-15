@@ -33,10 +33,10 @@ a:link{
 a:visited{
     color: var(--link-color);
 }
-#copyright_link, #storage_link{
+#copyright_link, #storage_link, #jonas-brothers-email{
     color: var(--third-sheet-gradient-color);
 }
-#copyright_link:hover, #storage_link:hover{
+#copyright_link:hover, #storage_link:hover, #jonas-brothers-email:hover{
     color: var(--link-color);
 }
 nav ul{
