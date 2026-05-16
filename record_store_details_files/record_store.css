@@ -128,6 +128,7 @@ table tr{
     flex-wrap: wrap;
 }
 .jonas_store_summary{
+    position: relative;
     margin-left: 130px;
     margin-top: 20px;
     display: flex;
@@ -153,9 +154,6 @@ table tr{
 }
 .features > h2{
     font-size: 35px;
-}
-#jonas_store_interior_photo{
-    position: relative;
 }
 .stars{
     position: absolute;
