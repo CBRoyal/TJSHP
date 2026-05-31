@@ -127,7 +127,7 @@ table tr{
     display: flex;
     flex-wrap: wrap;
 }
-.jonas_store_summary{
+#jonas_store_summary{
     position: relative;
     margin-left: 130px;
     margin-top: 20px;
@@ -145,7 +145,7 @@ table tr{
     float: right;
     clear: both;
 }
-.features{
+#features{
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
     background-color: var(--third-sheet-gradient-color);
