@@ -61,7 +61,7 @@ nav li a:hover{
     border: 10px groove var(--sheet-border-color);
 }
 #jonas_store_detail_title{
-    margin-left: 5px;
+    margin-left: 10px;
 }
 #jonas_store_detail_title h1{
     color: var(--second-webpage-gradient-color);
