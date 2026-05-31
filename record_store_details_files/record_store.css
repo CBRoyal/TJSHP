@@ -137,4 +137,8 @@ nav li a:hover{
     #jonas_store_detail_webpage{
         width: 700px;
     }
+    #jonas_store_summary{
+        margin-left: 80px;
+        font-size: 25px;
+    }
 }
