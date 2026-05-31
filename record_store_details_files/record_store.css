@@ -82,7 +82,6 @@ nav li a:hover{
     flex-direction: column;
 }
 #jonas_store_detail_content{
-    margin-left: 20px;
     display: flex;
     flex-wrap: wrap;
 }
