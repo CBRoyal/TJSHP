@@ -132,6 +132,9 @@ nav li a:hover{
     #jonas_store_summary{
         margin-left: 100px;
     }
+    .stars{
+        margin-left: 60px;
+    }
 }
 @media (max-width: 500px){
     #jonas_store_detail_webpage{
