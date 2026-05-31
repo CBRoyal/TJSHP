@@ -65,64 +65,23 @@ nav li a:hover{
     font-family:'Courier New', Courier, monospace;
     font-size: 50px;
 }
-.jonas_store_title p, .jonas_store_detail_title p{
+#jonas_store_detail_title p{
     color: var(--link-hover-color);
     font-family:'Courier New', Courier, monospace;
     font-size: 25px;
 }
-.jonas_store_description p, .jonas_store_summary p{
+#jonas_store_summary p{
     font-family:'Courier New', Courier, monospace;
     font-size: 15px;
 }
-#container{
-    display: flex;
-    gap: 20px;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-@keyframes lowerRecord{
-    from{top:120px;}
-    to{top:160px;}
-}
-.records{
-    padding: 5px;
-    background-color: var(--third-sheet-gradient-color);
-    border: 5px groove var(--sheet-border-color);
-    box-shadow: 3px 3px 4px var(--link-hover-color);
-    position: relative;
-}
-.records:hover{
-    animation-name: lowerRecord;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    transition: all 200ms ease-in-out;
-    transform: scale(1.5,1.5);
-}
-.records p{
-    color: var(--link-hover-color);
-    font-family: 'Courier New', Courier, monospace; 
-    font-size: 20px; 
-}
-table, th, td{
-    border: 5px groove var(--sheet-border-color);
-    font-family: 'Courier New', Courier, monospace;
-}
-table caption{
-    font-size: 30px;
-}
-table tr{
-    font-size: 15px;
-}
-#jonas_store_main_footbar, #jonas_store_detail_footbar{
+#jonas_store_detail_footbar{
     background: var(--link-hover-color);
     color: var(--third-sheet-gradient-color);
     padding: 3px 0;
     display: flex;
     flex-direction: column;
 }
-.jonas_store_detail_content{
+#jonas_store_detail_content{
     margin-left: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -136,7 +95,7 @@ table tr{
     flex-grow: 1;
     flex-basis: 60%;
 }
-.jonas_store_summary> div{
+#jonas_store_summary> div{
     background-color: var(--third-sheet-gradient-color);
     color: var(--link-hover-color);
     border: 5px groove var(--sheet-border-color);
@@ -152,7 +111,7 @@ table tr{
     color: var(--link-hover-color);
     border: 5px groove var(--sheet-border-color);
 }
-.features > h2{
+#features > h2{
     font-size: 35px;
 }
 .stars{
