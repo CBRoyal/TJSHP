@@ -89,7 +89,7 @@ nav li a:hover{
 #jonas_store_summary{
     position: relative;
     margin-left: 140px;
-    margin-top: 15px;
+    margin-top: 10px;
     display: flex;
     gap: 20px;
     flex-grow: 1;
