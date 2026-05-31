@@ -10,11 +10,11 @@
     --third-sheet-gradient-color: #ffff00;
     --sheet-border-color: #dda0dd;
 }
-#jonas_store_main_webpage, #jonas_store_detail_webpage{
+#jonas_store_detail_webpage{
     background: linear-gradient(to bottom right, var(--first-webpage-gradient-color),
     var(--second-webpage-gradient-color), var(--third-webpage-gradient-color));
 }
-#jonas_store_main_headbar, #jonas_store_detail_headbar{
+#jonas_store_detail_headbar{
     background: var(--headbar-background);
     padding: 3px 0;
     display: flex;
@@ -55,12 +55,12 @@ nav li a:hover{
     background-color: var(--third-sheet-gradient-color);
     padding: 10px 10px;
 }
-#jonas_store_main_sheet, #jonas_store_detail_sheet{
+#jonas_store_detail_sheet{
     background: linear-gradient(to right, var(--first-sheet-gradient-color), 
     var(--second-sheet-gradient-color), var(--third-sheet-gradient-color));
     border: 10px groove var(--sheet-border-color);
 }
-.jonas_store_title h1 , .jonas_store_detail_title h1{
+#jonas_store_detail_title h1{
     color: var(--second-webpage-gradient-color);
     font-family:'Courier New', Courier, monospace;
     font-size: 50px;
