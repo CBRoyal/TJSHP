@@ -110,6 +110,7 @@ nav li a:hover{
     background-color: var(--third-sheet-gradient-color);
     color: var(--link-hover-color);
     border: 5px groove var(--sheet-border-color);
+    margin-right: 10px;
 }
 #features > h2{
     font-size: 35px;
