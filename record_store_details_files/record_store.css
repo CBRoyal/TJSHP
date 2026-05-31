@@ -146,4 +146,7 @@ nav li a:hover{
     #jonas_store_summary p{
         font-size: 20px;
     }
+    .stars{
+        margin-left: 100px;
+    }
 }
