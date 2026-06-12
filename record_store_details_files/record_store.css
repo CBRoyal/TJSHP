@@ -125,7 +125,7 @@ nav li a:hover{
     top: 250px;
     width: 160px;
 }
-@media (max-width: 800px){
+@media screen and (max-width: 800px){
     #jonas_store_summary #jonas_store_image{
         margin-left: 120px;
     }
@@ -136,7 +136,7 @@ nav li a:hover{
         margin-left: 105px;
     }
 }
-@media (max-width: 500px){
+@media screen and (max-width: 500px){
     #jonas_store_detail_webpage{
         width: 700px;
     }
